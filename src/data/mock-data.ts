@@ -15,7 +15,7 @@ export const animals: Animal[] = [
     name: "Snow Leopard",
     scientificName: "Panthera uncia",
     image:
-      "https://images.unsplash.com/photo-1611764461465-091a8d2f1a68?auto=format&fit=crop&w=1400&q=80",
+      "https://www.britannica.com/animal/snow-leopard",
     status: "Vulnerable",
     dangerLevel: "endangered",
     population: 3900,
@@ -33,7 +33,7 @@ export const animals: Animal[] = [
     name: "Asian Elephant",
     scientificName: "Elephas maximus",
     image:
-      "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=1400&q=80",
+      "https://www.fauna-flora.org/species/asian-elephant/",
     status: "Endangered",
     dangerLevel: "danger",
     population: 47000,
@@ -51,7 +51,7 @@ export const animals: Animal[] = [
     name: "Polar Bear",
     scientificName: "Ursus maritimus",
     image:
-      "https://images.unsplash.com/photo-1530595467536-db675f1fbb0e?auto=format&fit=crop&w=1400&q=80",
+      "https://en.wikipedia.org/wiki/Polar_bear",
     status: "Vulnerable",
     dangerLevel: "caution",
     population: 22000,
@@ -69,7 +69,7 @@ export const animals: Animal[] = [
     name: "One-Horned Rhino",
     scientificName: "Rhinoceros unicornis",
     image:
-      "https://images.unsplash.com/photo-1564760055777-2f42b63e0f06?auto=format&fit=crop&w=1400&q=80",
+      "https://en.wikipedia.org/wiki/Indian_rhinoceros",
     status: "Vulnerable",
     dangerLevel: "endangered",
     population: 4000,
@@ -87,7 +87,7 @@ export const animals: Animal[] = [
     name: "Deer",
     scientificName: "Cervidae (family)",
     image:
-      "https://images.unsplash.com/photo-1484406566174-9cb61f6d1b4b?auto=format&fit=crop&w=1400&q=80",
+      "https://dev.welcomewildlife.com/white-tailed-deer/",
     status: "Near Threatened",
     dangerLevel: "habitat",
     population: 35000000,
@@ -105,7 +105,7 @@ export const animals: Animal[] = [
     name: "Gharial",
     scientificName: "Gavialis gangeticus",
     image:
-      "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?auto=format&fit=crop&w=1400&q=80",
+      "https://commons.wikimedia.org/wiki/File:Indian_Gharial_Crocodile_Digon3.JPG",
     status: "Critically Endangered",
     dangerLevel: "water",
     population: 1000,

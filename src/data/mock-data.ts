@@ -15,7 +15,7 @@ export const animals: Animal[] = [
     name: "Snow Leopard",
     scientificName: "Panthera uncia",
     image:
-      "https://www.britannica.com/animal/snow-leopard",
+      "https://plus.unsplash.com/premium_photo-1671976322599-63751868ad3f?q=80&w=1126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     status: "Vulnerable",
     dangerLevel: "endangered",
     population: 3900,
@@ -51,7 +51,7 @@ export const animals: Animal[] = [
     name: "Polar Bear",
     scientificName: "Ursus maritimus",
     image:
-      "https://en.wikipedia.org/wiki/Polar_bear",
+      "https://images.unsplash.com/photo-1590787996529-a542c86ca267?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     status: "Vulnerable",
     dangerLevel: "caution",
     population: 22000,
@@ -69,7 +69,7 @@ export const animals: Animal[] = [
     name: "One-Horned Rhino",
     scientificName: "Rhinoceros unicornis",
     image:
-      "https://en.wikipedia.org/wiki/Indian_rhinoceros",
+      "https://images.unsplash.com/photo-1598894000396-bc30e0996899?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     status: "Vulnerable",
     dangerLevel: "endangered",
     population: 4000,
@@ -87,7 +87,7 @@ export const animals: Animal[] = [
     name: "Deer",
     scientificName: "Cervidae (family)",
     image:
-      "https://dev.welcomewildlife.com/white-tailed-deer/",
+      "https://plus.unsplash.com/premium_photo-1661833885736-e6df42210638?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     status: "Near Threatened",
     dangerLevel: "habitat",
     population: 35000000,
@@ -105,7 +105,7 @@ export const animals: Animal[] = [
     name: "Gharial",
     scientificName: "Gavialis gangeticus",
     image:
-      "https://commons.wikimedia.org/wiki/File:Indian_Gharial_Crocodile_Digon3.JPG",
+      "https://images.unsplash.com/photo-1684731608029-43d5dce57ca5?q=80&w=1257&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     status: "Critically Endangered",
     dangerLevel: "water",
     population: 1000,

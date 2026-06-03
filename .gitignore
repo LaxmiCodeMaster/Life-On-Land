@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# next.js build
+.next/
+out/
+
+# env files
+.env
+.env.local
+.env*.local
+
+# debug / misc
+npm-debug.log*
+.DS_Store
+*.pem
+
+# vercel
+.vercel
+
+# portable git installer (do not commit)
+Git/

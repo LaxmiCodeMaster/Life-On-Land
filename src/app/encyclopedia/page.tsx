@@ -34,12 +34,15 @@ export default function EncyclopediaPage() {
           <option>Critically Endangered</option>
           <option>Endangered</option>
           <option>Vulnerable</option>
+          <option>Near Threatened</option>
         </select>
         <select value={habitat} onChange={(e) => setHabitat(e.target.value)} className="glass rounded-xl px-4 py-3">
           <option>All</option>
           <option>mountain</option>
           <option>forest</option>
           <option>river</option>
+          <option>arctic</option>
+          <option>grassland</option>
         </select>
       </div>
       <div className="mt-6 grid gap-4 md:grid-cols-2">

@@ -127,6 +127,10 @@ export function identifyAnimalFromImageName(imageName: string): {
         lower.includes(animal.name.toLowerCase().split(" ")[0]) ||
         (lower.includes("leopard") && animal.id === "snow-leopard") ||
         (lower.includes("elephant") && animal.id === "asian-elephant") ||
+        (lower.includes("polar") && animal.id === "polar-bear") ||
+        (lower.includes("bear") && animal.id === "polar-bear") ||
+        (lower.includes("rhino") && animal.id === "one-horned-rhino") ||
+        (lower.includes("deer") && animal.id === "deer") ||
         (lower.includes("croc") && animal.id === "gharial") ||
         (lower.includes("gharial") && animal.id === "gharial")
     ) ?? animals[0];

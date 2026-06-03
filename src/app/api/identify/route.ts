@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
+import { identifyAnimalFromImageName } from "@/lib/ecocopilot";
 
 export async function POST(req: Request) {
-  const body = (await req.json()) as { imageName?: string };
-  return NextResponse.json({
-    animalName: "Likely Snow Leopard",
-    species: "Panthera uncia",
-    habitat: "High mountain ranges",
-    conservationStatus: "Vulnerable",
-    facts: `Identification based on ${body.imageName ?? "uploaded image"} with demo inference model.`
-  });
+  try {
+    const body = (await req.json()) as { imageName?: string };
+    const imageName = body.imageName?.trim() || "uploaded image";
+    const result = identifyAnimalFromImageName(imageName);
+    return NextResponse.json(result);
+  } catch {
+    return NextResponse.json({ error: "Identification failed." }, { status: 500 });
+  }
 }
